@@ -9,6 +9,7 @@ a {
 
 table, th, td {
   border: 1px solid black;
+  width: device-width;
 }
 
 table.center {
@@ -16,6 +17,9 @@ table.center {
   margin-right: auto;
 }
 
-.description{
-  width: 350px;
+td .description{
+  width: 500px;
+}
+td .link{
+  width: 100px;
 }
